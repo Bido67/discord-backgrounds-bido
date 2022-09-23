@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Change website themes with javascript
 // @namespace    http://tampermonkey.net/
-// @version      0.4
-// @description  try to take over the world!
-// @author       You
+// @version      0.5
+// @description  This thing changes themes of sites with javascript.
+// @author       Bido67
 // @match        https://www.tampermonkey.net/index.php?version=4.16.1&ext=dhdg&updated=true
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
+// @updateURL  https://bido67.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
 // @downloadURL  https://bido67.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
+// @run-at   document-body
+// @include  *
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js
 // @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require file:///C:/EdgeBackgroundImage/image.js

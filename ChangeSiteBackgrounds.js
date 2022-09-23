@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.tampermonkey.net/index.php?version=4.16.1&ext=dhdg&updated=true
@@ -141,7 +141,15 @@
             element.style.opacity = 1;
             break;
         case "github.com":
-            element.style.opacity = 1;
+            let githubbody = document.querySelector('body');
+            githubbody.style.setProperty('--backColorLight', '#000000AA');
+            githubbody.style.setProperty('--backColorTransparent', '#00000000');
+            githubbody.style.setProperty('--backgroundImageString', imageBase64Func());
+            githubbody.style.backgroundImage = image;
+            githubbody.style.backgroundSize= "cover";
+            githubbody.style.backgroundAttachment= "fixed";
+            githubbody.style.backgroundPosition= "center";
+            githubbody.style.opacity = 1;
             break;
         case "twitter.com":
             SetBgColor(".css-1dbjc4n",'var(--backColorLight, #000000AA)',true)

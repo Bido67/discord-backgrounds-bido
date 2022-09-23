@@ -6,6 +6,7 @@
 // @author       You
 // @match        https://www.tampermonkey.net/index.php?version=4.16.1&ext=dhdg&updated=true
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
+// @downloadURL  https://bido67.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js
 // @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require file:///C:/EdgeBackgroundImage/image.js

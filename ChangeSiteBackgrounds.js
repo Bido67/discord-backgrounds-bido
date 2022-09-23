@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Change website themes with javascript
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  This thing changes themes of sites with javascript.
 // @author       Bido67
 // @match        https://www.tampermonkey.net/index.php?version=4.16.1&ext=dhdg&updated=true
@@ -34,6 +34,7 @@
 
     let element = document.querySelector('body');
     element.style.setProperty('--backColorLight', '#000000AA');
+    element.style.setProperty('--backColorUltraLight', '#00000015');
     element.style.setProperty('--backColorTransparent', '#00000000');
 
     element.style.setProperty('--backgroundImageString', imageBase64Func());
@@ -155,7 +156,7 @@
             githubbody.style.opacity = 1;
             break;
         case "twitter.com":
-            SetBgColor(".css-1dbjc4n",'var(--backColorLight, #000000AA)',true)
+            SetBgColor(".css-1dbjc4n",'var(--backColorUltraLight, #00000015)',true)
             element.style.opacity = 1;
             break;
         case "facebook.com":

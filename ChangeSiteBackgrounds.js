@@ -6,8 +6,8 @@
 // @author       Bido67
 // @match        https://www.tampermonkey.net/index.php?version=4.16.1&ext=dhdg&updated=true
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
-// @updateURL  https://bido67.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
-// @downloadURL  https://bido67.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
+// @updateURL  https://lilysoftpaw.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
+// @downloadURL  https://lilysoftpaw.github.io/discord-backgrounds-bido/ChangeSiteBackgrounds.js
 // @run-at   document-body
 // @include  *
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js
